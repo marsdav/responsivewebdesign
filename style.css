@@ -1,0 +1,107 @@
+html {
+    background-image: url("../images/foliage.png");
+    background-repeat: repeat;
+}
+
+body {
+max-width: 850px;
+background: white;
+border: 2px solid black;
+box-shadow: 5px 5px 5px rgb(24, 26, 21);
+margin: 120px auto;
+font-family: Tahoma, Verdana, sans-serif;
+
+}
+
+h2 {
+    font-size: 30px;
+    
+}
+
+h1 {
+    font-size: 21px;
+    
+}
+
+h1:first-of-type::first-letter {
+    font-size: 50px;
+}
+
+
+ h3 {
+    font-size: 17px;
+ }
+
+ header img {
+    float: left;
+ }
+
+ header h2 {
+    padding-left: 110px;
+    /*border: 2px solid black;               for padding aligning clarity */
+    
+    
+ }
+ header h3 {
+    padding-left: 110px;
+    
+ }
+
+ header {
+    border-bottom: 2px solid black;
+            /*browswer wont render linear gradient all the way to the top OR my syntax is wrong*/
+    background: linear-gradient(
+        45deg,
+        white,
+        orange 75%,
+        black 100%);
+ }
+
+ 
+ /*.container {
+    display: flex;}                                 
+
+ aside {
+   flex: 1;
+   order: 1;
+ }
+
+ section {
+   flex: 3;
+   order: 2;
+ }*/
+
+aside {
+    width: 160px;
+    height: 350px;
+    float: left;
+    
+}
+
+ section {
+    width: 650px;
+    height: 350px;
+    float: right;
+    margin-right: 30px;
+    
+
+ }
+
+ 
+
+ footer {
+    border-top: 2px solid black;
+    font-size: 12px;
+    text-align: center;
+    background: linear-gradient(
+        45deg,
+        black,
+        orange 75%,
+        white 100%);
+    padding: 15px 0 15px 0;
+    clear: both;
+    
+ }
+ 
+ 
+ 
